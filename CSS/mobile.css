@@ -1,0 +1,59 @@
+/* align icons to left in the What section*/
+#what .items {
+	flex-direction: column;
+}
+
+#what .items .item {
+	display: flex;
+	text-align: left;
+}
+
+#what .items .item i {
+	margin-right: 1.3rem;
+	align-self: flex-start;
+	margin-bottom: 0;
+	font-size: 3rem;
+}
+
+#logo {
+	margin-bottom: 1rem;
+}
+
+/* hiding the image ijn who are we */
+#who-img {
+	display: none;
+}
+
+/* stacking the form in top of the map */
+
+#contacts {
+	display: block;
+}
+#form {
+	flex-direction: column;
+}
+#map {
+	width: 100vw;
+	height: 300px;
+	border-top: #333 solid 5px;
+}
+
+/* map size more than form size */
+
+#navbar {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	font-size: 0.75rem;
+}
+
+#what .items .item {
+	padding: 0;
+}
+
+#contacts .container {
+	padding: 0;
+}

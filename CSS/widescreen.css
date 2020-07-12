@@ -1,0 +1,19 @@
+/* align icons to left in the What section*/
+
+#what .items .item {
+	display: flex;
+	text-align: left;
+}
+
+#what .items .item i {
+	margin-right: 1.3rem;
+	align-self: flex-start;
+	margin-bottom: 0;
+	font-size: 3rem;
+}
+
+/* map size more than form size */
+
+#map {
+	flex: 2;
+}
